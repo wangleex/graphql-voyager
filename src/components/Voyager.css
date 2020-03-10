@@ -9,6 +9,7 @@
   font: var(--base-font-size) var(--base-font-family);
   display: flex;
   height: 100%;
+  position: relative;
 
   @media (--small-viewport) {
     flex-direction: column;
@@ -34,7 +35,8 @@
   }
 
   @media (--small-viewport) {
-    & > .doc-panel, & > .viewport {
+    & > .doc-panel,
+    & > .viewport {
       height: 50%;
       width: 100%;
       max-width: none;
