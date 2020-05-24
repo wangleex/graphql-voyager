@@ -1,5 +1,5 @@
 {
-  "name": "graphql-voyager",
+  "name": "graphql-voyager-lxwang2",
   "version": "1.0.0-rc.28",
   "description": "GraphQL introspection viewer",
   "main": "dist/voyager.lib.js",
